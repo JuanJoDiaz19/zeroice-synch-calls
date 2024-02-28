@@ -18,10 +18,6 @@ public class PrinterI implements Demo.Printer {
            return new Response(0L, "You sended an void message, try again :(");
         }
 
-        if(splitMessage.length >=3) {
-            return new Response(0L, "You sended a message with more params than requiered");
-        }
-
         String actual_message = splitMessage[1];
         
         // 2.a - Fibonacci numbers - Primer factors
