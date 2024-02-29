@@ -34,7 +34,7 @@ public class Client {
                     response = service.printString(username + ":" + hostname + " " + userInput);
 
                     if(userInput.equalsIgnoreCase("exit")) {
-                        System.out.println("Thank you for usin the program :)");
+                        System.out.println("Thank you for using the program :)");
                         break;
                     }
 
