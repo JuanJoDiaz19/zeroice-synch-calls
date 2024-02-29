@@ -33,7 +33,7 @@ public class Client {
 
                     response = service.printString(username + ":" + hostname + " " + userInput);
 
-                    System.out.println("Respuesta del server: " + response.value);
+                    System.out.println("Server's response: " + response.value);
 
                 } while (!userInput.equalsIgnoreCase("exit"));
 
