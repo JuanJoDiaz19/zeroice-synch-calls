@@ -99,7 +99,7 @@ public class PrinterI implements Demo.Printer {
         String ans = "";
         Long nCopy = n;
 
-        for (Long i = 2L; i < n; i++) {
+        for (Long i = 2L; i <= n; i++) {
             while (nCopy % i == 0) {
                 ans = ans + i + " ";
                 nCopy /= i;
