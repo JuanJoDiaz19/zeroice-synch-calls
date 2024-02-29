@@ -33,6 +33,11 @@ public class Client {
 
                     response = service.printString(username + ":" + hostname + " " + userInput);
 
+                    if(userInput.equalsIgnoreCase("exit")) {
+                        System.out.println("Thank you for usin the program :)");
+                        break;
+                    }
+
                     System.out.println("Server's response: " + response.value);
 
                 } while (!userInput.equalsIgnoreCase("exit"));
